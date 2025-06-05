@@ -23,9 +23,13 @@ Run below commands
 </pre>
 
 <pre>
-To use ingress (benefits - web app firewall, host based routing etc ...)
+<div>
+  To use ingress (benefits - web app firewall, host based routing etc ...)
+</div>
 Go to AKS cluster -> settings -> networking -> enable ingress controller
 run -> kubectl apply -f ingress.yaml -n robot-shop
 run -> kubectl get ing -n robot-shop (get address and access url)
-NOTE : Application Gateway Ingress Controller addon is only available with Azure CNI Overlay in public preview.
+<div>
+  NOTE : Application Gateway Ingress Controller addon is only available with Azure CNI Overlay in public preview.
+</div>
 </pre>
